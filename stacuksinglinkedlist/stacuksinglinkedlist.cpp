@@ -24,4 +24,8 @@ public:
 	Stack() {
 		top = NULL;
 	}
+
+	int push(int value) {
+		Node* newNode = new Node();
+	}
 };
